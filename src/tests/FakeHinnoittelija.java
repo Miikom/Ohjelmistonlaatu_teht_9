@@ -14,4 +14,13 @@ public class FakeHinnoittelija implements IHinnoittelija {
 	public float getAlennusProsentti(Asiakas asiakas, Tuote tuote) {
 		return alennus;
 	}
+	public void aloita() {
+		
+	}
+	public void setAlennusProsentti(Asiakas asiakas, float alennus) {
+		this.alennus = alennus;
+	}
+	public void lopeta() {
+		
+	}
 }
